@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-prac",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "SotaSuzuki <3.3sota.suzuki@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:dev": "esbuild src/index.jsx --bundle '--define:process.env.NODE_ENV=\"development\"' --outfile=dist/bundle.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.5.17"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
